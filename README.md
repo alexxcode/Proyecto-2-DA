@@ -29,14 +29,14 @@ El proyecto se desarrolló siguiendo estos aspectos clave:
 
 ## ETL
 
-Si bien el proyecto no requería un ETL o transformación de datos, fue necesario realzar algunas modificaciones con el fin de alcanzar el objetivo de forma mas eficiente, por tanto, previamente al análisis se realizaron las siguientes acciones para garantizar la calidad y coherencia de los datos:
+Si bien el proyecto no requería un ETL o transformación de datos, fue necesario realizar algunas modificaciones con el fin de alcanzar el objetivo del proyecto forma más eficiente, por tanto, previamente al análisis se realizaron las siguientes acciones para garantizar la calidad y coherencia de los datos:
 
-- **1. Eliminación de Duplicados** 
+- **1. Eliminación de Duplicados.** 
 - **2. Filtrado de Fechas Inválidas:** Se ha realizado un filtrado riguroso en la columna 'release_date' para identificar y cuantificar los valores atípicos que no cumplen con el formato aaaa-mm-dd. 
-- **3. Unión de las tablas:** Como parte de la transformación se ha realizado la unión de las tablas por medio de un inner 
+- **3. Unión de las tablas:** Como parte de la transformación se ha realizado la unión de las tablas por medio de un inner.
 - **4. Gestión de Valores Nulos:** Dado que los valores nulos podrían afectar negativamente el funcionamiento de la API, se han eliminado de manera consciente. 
-- **5. Identificación de Outliers** 
-- **6. Eliminación de Registros Incoherentes** 
+- **5. Identificación de Outliers.** 
+- **6. Eliminación de Registros Incoherentes.** 
 - **7. Creación de nuevas columnas:** se crearon dos columnas nuevas llamadas SEMESTRE y CATEGORIA_EDAD  para realizar los KPIs y el Deshboard sin modificación posterior. 
 
 </br>
@@ -44,7 +44,7 @@ Si bien el proyecto no requería un ETL o transformación de datos, fue necesari
 
 ## EDA
 
-Utilizando los datos resultantes del proceso ETL, se llevó a cabo un análisis exploratorio de datos (EDA) que reveló resultados sorprendentes y Se descubrió patrones que no eran evidentes a simple vista.
+Utilizando los datos resultantes del proceso ETL, se llevó a cabo un análisis exploratorio de datos (EDA) que reveló resultados sorprendentes y patrones que no eran evidentes a simple vista.
 A continuación, haremos un análisis exhaustivo por categoría:
 
 **1. Relación entre AÑO y el Número de Víctimas :**
@@ -159,7 +159,7 @@ Los datos pueden ser útiles para evaluar la efectividad de las medidas de segur
 
 **5. Distribución de Víctimas por Rol:**
 
-![Distribución de Víctimas por Rol]()
+![Distribución de Víctimas por Rol](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/rol_victima.png)
 
 
 **Análisis de la distribución de víctimas por rol y tipo de vehículo:**
@@ -313,12 +313,24 @@ Este KPI se centra en evaluar la evolución de la cantidad de accidentes mortale
 
 - **Comparación anual:** La reducción del 7% en la cantidad de accidentes mortales de motociclistas es el objetivo, pero no siempre se logra. Por ejemplo, en el año 2019, se observa una disminución significativa del 44%.
 
-- **Análisis de causas:** Para entender las fluctuaciones en este KPI, sería importante analizar factores como las medidas de seguridad específicas para motociclistas, el aumento en la cantidad de motociclistas en la ciudad y la aplicación de políticas de 
+- **Análisis de causas:** Para entender las fluctuaciones en este KPI, sería importante analizar factores como las medidas de seguridad específicas para motociclistas, el aumento en la cantidad de motociclistas en la ciudad y la aplicación de políticas de tráfico.
 
 
 **KPI 3: Reducción del 15% en la cantidad de accidentes mortales de niños en CABA respecto al año anterior.**
 
 ![KPI 3](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/kpi3.png)
+
+El KPI 3 se centra en evaluar la evolución de la cantidad de accidentes mortales de niños en la Ciudad Autónoma de Buenos Aires (CABA) en un período de varios años, comparando los dos últimos años.
+
+- **Tendencia General:** En general, hubo una reducción en la cantidad de accidentes mortales de niños en CABA durante los años analizados.
+
+- **Año 2017:** El año 2017 muestra una disminución significativa con 37 accidentes mortales menos que en el año anterior. Esto podría ser un punto de interés para investigar más a fondo.
+
+- **Años 2018 y 2019:** En 2018, hubo un aumento de 25 accidentes mortales, seguido por una disminución aún mayor de 47 accidentes mortales en 2019. Es importante entender las razones detrás de estos cambios bruscos.
+
+- **Año 2020:** Aunque hubo una disminución de 12 accidentes mortales en 2020, esta cifra sigue siendo negativa. Sería relevante investigar las circunstancias específicas de estos accidentes.
+
+- **Análisis Cualitativo:** Además de los números, es importante analizar las causas subyacentes de estos accidentes. ¿Hubo cambios en las políticas de seguridad vial? ¿Se implementaron programas de concienciación? ¿Factores como el tráfico, la infraestructura o el comportamiento de los conductores influyeron en estas cifras?
 
 
 
