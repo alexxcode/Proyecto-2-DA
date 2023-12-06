@@ -48,7 +48,7 @@ A continuación, haremos un análisis exhaustivo por categoría:
 
 **1. Relación entre AÑO y el Número de Víctimas :**
 
-![Relación entre AÑO y el Número de Víctimas](h)
+![Relación entre AÑO y el Número de Víctimas](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/year_victima.png)
 
 
 **Análisis de la gráfica #1:**
@@ -63,7 +63,7 @@ El año 2018 destaca como el año con el mayor número de víctimas, con 149. Es
 
 - Disminución en 2019 y 2020
 
-En 2019, el número de víctimas disminuyó a 104, y en 2020 disminuyó aún más a 81. Esta tendencia a la baja podría deberse a una serie de factores, como políticas gubernamentales, cambios en la economía o medidas de seguridad.
+En 2019, el número de víctimas disminuyó a 104, y en 2020 disminuyó aún más a 81. Esta tendencia a la baja podría deberse a una serie de factores, como políticas gubernamentales o medidas de seguridad.
 
 - Aumento en 2021
 
@@ -80,9 +80,9 @@ Otros factores sociales o económicos.
 
 **2. Relación entre el género de las Víctimas y el Número de Víctimas :**
 
-![Relación entre el género de las Víctimas y el Número de Víctimas](h)
+![Relación entre el género de las Víctimas y el Número de Víctimas](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/genero_victima.png)
 
-**Análisis de la distribución de víctimas por género**
+**Análisis de la distribución de víctimas por género:**
 
 - Distribución por género
 
@@ -90,7 +90,7 @@ El DataFrame presenta dos categorías principales de género: femenino y masculi
 
 - Diferencia significativa en el número de víctimas
 
-Es evidente que hay una diferencia significativa en el número de víctimas entre los géneros. El género masculino tiene un número mucho mayor de víctimas que el género femenino. Esta diferencia es de aproximadamente 3.29:1.
+Es evidente que hay una diferencia significativa en el número de víctimas entre los géneros. El género masculino tiene un número mucho mayor de víctimas que el género femenino. Esta diferencia es de aproximadamente 3.29:1
 
 - Proporción de género
 
@@ -101,7 +101,7 @@ La proporción de género es una medida que indica la relación entre dos catego
 Esta diferencia en el número de víctimas entre géneros podría ser el resultado de múltiples factores. Algunos de estos factores podrían incluir:  La distribución de roles de género en la sociedad, la exposición a diferentes riesgos o la subnotificación de casos en función del género.
 
 
-**3. Relación entre la edad y el número de víctimas :**
+**3. Relación entre la edad y el número de víctimas:**
 
 ![Relación entre EDAD y el Número de Víctimas](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/edad_victimas.png)
 
@@ -109,15 +109,15 @@ Esta diferencia en el número de víctimas entre géneros podría ser el resulta
 
 - Distribución por categoría de edad
 
-El DataFrame presenta tres categorías principales de edad: niños, adultos jóvenes y adultos mayores. La categoría de niños tiene 80 muertes por siniestros viales, la categoría de adultos jóvenes tiene 262 y la categoría de adultos mayores tiene 322.
+El DataFrame presenta tres categorías principales de edad: niños, adultos jóvenes y adultos mayores. La categoría de niños tiene 80 muertes por siniestros viales, la categoría de adultos jóvenes tiene 424 y la categoría de adultos mayores tiene 161.
 
 - Diferencias en el número de muertes por categoría de edad
 
-Se observan diferencias significativas en el número de muertes por siniestros viales entre las categorías de edad. La categoría de adultos mayores tiene el mayor número de muertes, seguida por la categoría de adultos jóvenes, mientras que la categoría de niños tiene el menor número de muertes.
+Se observan diferencias significativas en el número de muertes por siniestros viales entre las categorías de edad. La categoría de adultos jóvenes tiene el mayor número de muertes, seguida por la categoría de adultos mayores, mientras que la categoría de niños tiene el menor número de muertes con 79.
 
 - Interpretación de los resultados
 
-Estas diferencias en el número de muertes por categoría de edad podrían estar relacionadas con la vulnerabilidad de cada grupo de edad en siniestros viales, así como con la exposición a diferentes riesgos en la carretera.
+Estas diferencias en el número de muertes por categoría de edad podrían estar relacionadas con el tipo de actividad que realiza de cada grupo de forma frecuente, así como con la exposición a diferentes riesgos en la carretera.
 
 - Análisis demográfico
 
@@ -126,6 +126,7 @@ Sería útil considerar las características demográficas de cada grupo de edad
 - Prevención y seguridad vial
 
 Estos datos pueden ser útiles para evaluar políticas y programas de seguridad vial dirigidos a grupos específicos de edad. Por ejemplo, si los adultos mayores tienen un alto número de muertes en siniestros viales, podría ser importante implementar medidas adicionales de seguridad para este grupo en particular, como campañas de concienciación y mejoras en las infraestructuras viales.
+
 
 **4. Diagrama de Barras por el tipo de calle:**
 
@@ -136,7 +137,7 @@ Estos datos pueden ser útiles para evaluar políticas y programas de seguridad 
 
 - Distribución por tipo de calle
 
-El DataFrame presenta cuatro categorías principales de tipo de calle: autopista, avenida, calle y General Paz. La categoría de avenida tiene la mayor cantidad de víctimas por siniestros viales, con 442. Le sigue la categoría de calle con 138, la categoría de General Paz con 69 y la categoría de autopista con 68.
+El DataFrame presenta cuatro categorías principales de tipo de calle: autopista, avenida, calle y General Paz. La categoría de avenida tiene la mayor cantidad de víctimas por siniestros viales, con 442. Le sigue la categoría de calle con 137, la categoría de General Paz con 69 y la categoría de autopista con 67.
 
 - Diferencias en el número de víctimas por tipo de calle
 
@@ -206,7 +207,7 @@ Este análisis proporciona información valiosa sobre la relación entre el rol 
 
 **6. Cantidad de Siniestros por Mes:**
 
-![Cantidad de Siniestros por Mes]()
+![Cantidad de Siniestros por Mes](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/mes_victima.png)
 
 
 **Análisis de la distribución de víctimas de siniestros viales por mes:**
@@ -217,7 +218,7 @@ El DataFrame presenta datos sobre el número de víctimas de siniestros viales p
 
 - Variación en el número de víctimas por mes
 
-Se observa variación en el número de víctimas de siniestros viales en diferentes meses. El mes con el mayor número de víctimas es diciembre, con 81, mientras que el mes con la menor cantidad de víctimas es julio, con 51.
+Se observa variación en el número de víctimas de siniestros viales en diferentes meses. El mes con el mayor número de víctimas es diciembre, con 80, mientras que los meses con la menor cantidad de víctimas son julio y septiembre, ambos con 51.
 
 - Diferencias en la seguridad vial
 
@@ -231,10 +232,72 @@ Actividades recreativas: Los meses con más actividades recreativas, como fiesta
 Estos datos pueden ser útiles para evaluar la efectividad de las políticas de seguridad vial en diferentes meses y para identificar aquellos que podrían requerir medidas de prevención adicionales.
 
 
+
+Este análisis proporciona información valiosa sobre la distribución de víctimas de siniestros viales por mes. Esta información puede ser utilizada para mejorar la seguridad vial en diferentes meses, identificando factores de riesgo e implementando medidas de prevención.
+
+
 Este análisis proporciona información valiosa sobre la distribución de víctimas de siniestros viales por mes. Esta información puede ser utilizada para mejorar la seguridad vial en diferentes meses, identificando factores de riesgo e implementando medidas de prevención.
 
 
 
 **7. Número de Víctimas por Comuna :**
 
-![Número de Víctimas por Comuna](h)
+![Número de Víctimas por Comuna](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/comuna_victima.png)
+
+
+**Análisis de la gráfica de víctimas por comuna**
+
+- Distribución de víctimas
+
+La tabla muestra los datos de 15 comunas diferentes, numeradas del 1 al 15. La cantidad de víctimas varía significativamente entre las comunas, desde 22 hasta 93.
+
+- Comuna con el mayor número de víctimas
+
+La comuna con el mayor número de víctimas es la Comuna 1, con 93 víctimas. Este dato es llamativo y podría indicar un área de interés para investigar más a fondo las razones detrás de esta cifra alta.
+
+- Comuna con el menor número de víctimas
+
+Las Comunas 5 y 6 tienen el menor número de víctimas, con 22. Este dato también es significativo y podría ser un punto de partida para investigar las condiciones que llevan a esta cifra baja.
+
+- Distribución general
+
+La distribución de víctimas en estas comunas parece ser bastante heterogénea, ya que algunas comunas tienen un número significativamente mayor de víctimas que otras.
+
+- Análisis estadístico
+
+Sería útil realizar un análisis estadístico más detallado para comprender mejor la variabilidad en el número de víctimas entre las comunas. Esto podría incluir cálculos como la media, la mediana, la desviación estándar y otros estadísticos descriptivos.
+
+- Factores influyentes
+
+Para un análisis más completo, sería importante considerar factores que podrían influir en el número de víctimas en cada comuna. Estos factores podrían incluir:
+
+La densidad de población.
+La presencia de servicios de seguridad.
+Medidas de prevención del delito.
+Otros factores sociales, económicos o culturales.
+
+</br>
+
+## KPIs
+
+**KPI 1: Reducción del 10% en la tasa de homicidios en siniestros viales en CABA en comparación con el semestre anterior**
+
+![KPI 1]()
+
+Este KPI se enfoca en medir la evolución de la tasa de homicidios en siniestros viales en la Ciudad Autónoma de Buenos Aires (CABA) en un período de varios años, comparando los dos últimos semestres.  Análisis más detallado:
+
+- **Tendencia general:** La tendencia en este KPI varía año tras año. En algunos años, se logra una disminución significativa, mientras que en otros se observa un aumento en la tasa de homicidios en siniestros viales.
+
+- **Año 2020:** Se destaca un aumento significativo en la tasa de homicidios en el primer semestre (61.29%), pero una mejora en el segundo semestre (10%), lo que puede ser atribuible a factores específicos, como el impacto de la pandemia o medidas de seguridad vial.
+
+- **Año 2021:** Los datos parecen estar incompletos, ya que falta información para el segundo semestre. Esto puede dificultar una evaluación precisa del rendimiento en ese año.
+
+- **Comparación entre semestres:** En algunos casos, se logra la reducción deseada del 10% entre semestres, mientras que en otros no se alcanza.
+
+- **Análisis de causas:** Sería útil profundizar en las razones detrás de las variaciones en la tasa de homicidios en siniestros viales, como cambios en las políticas de seguridad vial, mejoras en la infraestructura vial, o la influencia de eventos externos como la pandemia.
+
+
+**KPI 2: Reducción del 7% en la cantidad de accidentes mortales de motociclistas en CABA en el último año en comparación con el año anterior**
+
+![KPI 2]()
+
