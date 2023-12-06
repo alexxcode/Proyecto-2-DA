@@ -282,7 +282,7 @@ Otros factores sociales, económicos o culturales.
 
 **KPI 1: Reducción del 10% en la tasa de homicidios en siniestros viales en CABA en comparación con el semestre anterior**
 
-![KPI 1]()
+![KPI 1](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/kpi1.png)
 
 Este KPI se enfoca en medir la evolución de la tasa de homicidios en siniestros viales en la Ciudad Autónoma de Buenos Aires (CABA) en un período de varios años, comparando los dos últimos semestres.  Análisis más detallado:
 
@@ -297,7 +297,29 @@ Este KPI se enfoca en medir la evolución de la tasa de homicidios en siniestros
 - **Análisis de causas:** Sería útil profundizar en las razones detrás de las variaciones en la tasa de homicidios en siniestros viales, como cambios en las políticas de seguridad vial, mejoras en la infraestructura vial, o la influencia de eventos externos como la pandemia.
 
 
-**KPI 2: Reducción del 7% en la cantidad de accidentes mortales de motociclistas en CABA en el último año en comparación con el año anterior**
+**KPI 2: Reducción del 7% en la cantidad de accidentes mortales de motociclistas en CABA en comparación con el año anterior**
 
-![KPI 2]()
+![KPI 2](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/kpi2.png)
 
+
+Este KPI se centra en evaluar la evolución de la cantidad de accidentes mortales de motociclistas en la Ciudad Autónoma de Buenos Aires (CABA) en un período de varios años, comparando los dos últimos años. Análisis más detallado:
+
+- **Tendencia general:** En este KPI, también se observa una variación año tras año, con fluctuaciones tanto positivas como negativas.
+
+- **Año 2020:** Destaca un aumento significativo del 64.29% en la cantidad de accidentes mortales de motociclistas, lo que podría requerir una atención inmediata para comprender las razones detrás de este aumento.
+
+- **Año 2021:** Al igual que en el KPI 1, faltan datos para el año 2021 en este KPI, lo que dificulta una evaluación precisa.
+
+- **Comparación anual:** La reducción del 7% en la cantidad de accidentes mortales de motociclistas es el objetivo, pero no siempre se logra. Por ejemplo, en el año 2019, se observa una disminución significativa del 44%.
+
+- **Análisis de causas:** Para entender las fluctuaciones en este KPI, sería importante analizar factores como las medidas de seguridad específicas para motociclistas, el aumento en la cantidad de motociclistas en la ciudad y la aplicación de políticas de 
+
+
+**KPI 3: Reducción del 15% en la cantidad de accidentes mortales de niños en CABA respecto al año anterior.**
+
+![KPI 3](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/kpi3.png)
+
+
+
+
+*Todo este proceso fue desarrollado localmente en **Visual Studio Code (VSCODE)** utilizando **Jupyter Notebook** como nuestro entorno de trabajo principal. La combinación de herramientas tecnológicas que empleamos incluye **Python** como lenguaje de programación, junto con bibliotecas esenciales como **numpy y pandas** para la manipulación eficiente de datos. Además, utilizamos **matplotlib y seaborn** para la creación de visualizaciones gráficas impactantes, que nos permitieron revelar patrones y tendencias ocultas en los datos de manera efectiva.*
