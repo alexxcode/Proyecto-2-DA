@@ -2,7 +2,7 @@
 
 
 
-## La seguridad vial en la Ciudad Autónoma de Buenos Aires: un desafío que requiere datos y análisis
+## La seguridad vial en la Ciudad Autónoma de Buenos Aires: un desafío que requiere datos y análisis.
 
 La seguridad vial es un tema de preocupación constante en la Ciudad Autónoma de Buenos Aires. Los siniestros viales son eventos frecuentes que afectan la vida de sus residentes y visitantes. Cada año, miles de personas son víctimas de accidentes de tráfico, algunos de los cuales resultan en lesiones graves o incluso en tragedias fatales. La magnitud de este problema no solo impacta en la salud y seguridad de las personas, sino que también afecta la infraestructura vial y los servicios de emergencia.
 
@@ -48,9 +48,64 @@ A continuación, haremos un análisis exhaustivo por categoría:
 
 **1. Relación entre AÑO y el Número de Víctimas :**
 
+![Relación entre AÑO y el Número de Víctimas](h)
+
+
+**Análisis de la gráfica #1:**
+
+- Tendencia temporal
+
+La gráfica presenta datos desde 2016 hasta 2021, lo que permite analizar la evolución del número de víctimas a lo largo de este periodo. Se observa que el número de víctimas disminuyó desde 2018 hasta 2021, tras un pico en 2018.
+
+- Pico en 2018
+
+El año 2018 destaca como el año con el mayor número de víctimas, con 149. Es necesario investigar las causas de este aumento significativo en comparación con los años anteriores y posteriores.
+
+- Disminución en 2019 y 2020
+
+En 2019, el número de víctimas disminuyó a 104, y en 2020 disminuyó aún más a 81. Esta tendencia a la baja podría deberse a una serie de factores, como políticas gubernamentales, cambios en la economía o medidas de seguridad.
+
+- Aumento en 2021
+
+En 2021, el número de víctimas aumentó nuevamente a 97. Es necesario investigar las causas de este aumento, que podría deberse a factores similares a los que provocaron el pico en 2018.
+
+- Posibles factores influyentes
+
+Para un análisis más completo, sería necesario considerar posibles factores que podrían haber contribuido a las variaciones en el número de víctimas a lo largo de estos años. Algunos factores que podrían influir incluyen:
+
+Políticas gubernamentales.
+Cambios en la economía.
+Medidas de seguridad.
+Otros factores sociales o económicos.
+
+**2. Relación entre el género de las Víctimas y el Número de Víctimas :**
+
+![Relación entre el género de las Víctimas y el Número de Víctimas](h)
+
+**Análisis de la distribución de víctimas por género**
+
+- Distribución por género
+
+El DataFrame presenta dos categorías principales de género: femenino y masculino. La categoría femenina tiene 166 víctimas, mientras que la categoría masculina tiene 545 víctimas.
+
+- Diferencia significativa en el número de víctimas
+
+Es evidente que hay una diferencia significativa en el número de víctimas entre los géneros. El género masculino tiene un número mucho mayor de víctimas que el género femenino. Esta diferencia es de aproximadamente 3.29:1.
+
+- Proporción de género
+
+La proporción de género es una medida que indica la relación entre dos categorías. En este caso, la proporción de género masculino a femenino es de 3.29:1. Esto significa que por cada mujer víctima, hay 3.29 hombres víctimas.
+
+- Implicaciones y análisis adicional
+
+Esta diferencia en el número de víctimas entre géneros podría ser el resultado de múltiples factores. Algunos de estos factores podrían incluir:  La distribución de roles de género en la sociedad, la exposición a diferentes riesgos o la subnotificación de casos en función del género.
+
+
+**3. Relación entre la edad y el número de víctimas :**
+
 ![Relación entre EDAD y el Número de Víctimas](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/edad_victimas.png)
 
-**Análisis de la distribución de muertes por siniestros viales por categoría de edad**
+**Análisis de la distribución de muertes por siniestros viales por categoría de edad:**
 
 - Distribución por categoría de edad
 
@@ -72,12 +127,12 @@ Sería útil considerar las características demográficas de cada grupo de edad
 
 Estos datos pueden ser útiles para evaluar políticas y programas de seguridad vial dirigidos a grupos específicos de edad. Por ejemplo, si los adultos mayores tienen un alto número de muertes en siniestros viales, podría ser importante implementar medidas adicionales de seguridad para este grupo en particular, como campañas de concienciación y mejoras en las infraestructuras viales.
 
-**2. Diagrama de Barras por Tipo de Calle:**
+**4. Diagrama de Barras por el tipo de calle:**
 
 ![Diagrama de Barras por Tipo de Calle](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/diagrama_calle.png)
 
 
-**Análisis de la distribución de víctimas por tipo de calle**
+**Análisis de la distribución de víctimas por tipo de calle:**
 
 - Distribución por tipo de calle
 
@@ -98,3 +153,88 @@ Estas diferencias en el número de víctimas por tipo de calle podrían estar re
 - Medidas de seguridad vial
 
 Los datos pueden ser útiles para evaluar la efectividad de las medidas de seguridad vial en diferentes tipos de carreteras. Por ejemplo, si las avenidas tienen una alta cantidad de víctimas, podría ser necesario revisar las medidas de seguridad y la infraestructura en ese tipo de carretera.
+
+
+**5. Distribución de Víctimas por Rol:**
+
+![Distribución de Víctimas por Rol]()
+
+
+**Análisis de la distribución de víctimas por rol y tipo de vehículo:**
+
+- Distribución de roles y tipos de vehículos
+
+El DataFrame presenta datos sobre el rol de las víctimas en siniestros viales, el tipo de vehículo involucrado y la cantidad de casos para cada combinación.
+
+- Las combinaciones de roles y tipos de vehículos incluyen:
+
+Conductor de auto
+Conductor de moto
+Ciclista
+Pasajero de auto
+Pasajero de moto
+Peaton
+
+- Número de casos
+
+El DataFrame también presenta el número de casos para cada combinación. Por ejemplo, la combinación "Ciclista" - "Bicicleta" tiene 29 casos. Esto significa que hubo 29 siniestros viales en los que la víctima era un ciclista que conducía una bicicleta.
+
+- Interpretación de los resultados
+
+Los resultados del análisis sugieren que los peatones y los ciclistas son los usuarios más vulnerables de las carreteras. Los peatones representan el 34% de las víctimas, mientras que los ciclistas representan el 12%.
+
+Los conductores de autos y motos también representan un número significativo de víctimas. Los conductores de autos representan el 29% de las víctimas, mientras que los conductores de motos representan el 11%.
+
+- Implicaciones y análisis adicional
+
+Estos resultados sugieren que se deben tomar medidas para mejorar la seguridad de los peatones y los ciclistas. Estas medidas podrían incluir:
+
+Mejorar la infraestructura vial para proteger a los peatones y ciclistas.
+
+Implementar campañas de educación vial para concienciar a los conductores sobre la importancia de compartir la carretera con los peatones y ciclistas.
+
+También se podrían tomar medidas para mejorar la seguridad de los conductores de autos y motos. Estas medidas podrían incluir:
+
+Reducir los límites de velocidad.
+Mejorar la seguridad de los vehículos.
+Implementar campañas de educación vial para concienciar a los conductores sobre la importancia de conducir de forma segura.
+
+
+
+Este análisis proporciona información valiosa sobre la relación entre el rol de las víctimas y el tipo de vehículo involucrado en siniestros viales. Esta información puede ser utilizada para abordar problemas de seguridad vial específicos y tomar medidas adecuadas para reducir los riesgos en las carreteras.
+
+
+**6. Cantidad de Siniestros por Mes:**
+
+![Cantidad de Siniestros por Mes]()
+
+
+**Análisis de la distribución de víctimas de siniestros viales por mes:**
+
+- Distribución de víctimas por mes
+
+El DataFrame presenta datos sobre el número de víctimas de siniestros viales para cada mes del año.
+
+- Variación en el número de víctimas por mes
+
+Se observa variación en el número de víctimas de siniestros viales en diferentes meses. El mes con el mayor número de víctimas es diciembre, con 81, mientras que el mes con la menor cantidad de víctimas es julio, con 51.
+
+- Diferencias en la seguridad vial
+
+Estas diferencias en el número de víctimas podrían estar relacionadas con factores como:
+
+Condiciones climáticas: Los meses con condiciones climáticas adversas, como lluvia o nieve, podrían tener un mayor riesgo de siniestros viales.
+Actividades recreativas: Los meses con más actividades recreativas, como fiestas de fin de año o navidad, podrían tener un mayor riesgo de siniestros viales.
+
+- Políticas de seguridad vial
+
+Estos datos pueden ser útiles para evaluar la efectividad de las políticas de seguridad vial en diferentes meses y para identificar aquellos que podrían requerir medidas de prevención adicionales.
+
+
+Este análisis proporciona información valiosa sobre la distribución de víctimas de siniestros viales por mes. Esta información puede ser utilizada para mejorar la seguridad vial en diferentes meses, identificando factores de riesgo e implementando medidas de prevención.
+
+
+
+**7. Número de Víctimas por Comuna :**
+
+![Número de Víctimas por Comuna](h)
