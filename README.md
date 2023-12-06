@@ -74,4 +74,27 @@ Estos datos pueden ser útiles para evaluar políticas y programas de seguridad 
 
 **2. Diagrama de Barras por Tipo de Calle:**
 
-![Diagrama de Barras por Tipo de Calle]()
+![Diagrama de Barras por Tipo de Calle](https://github.com/alexxcode/Proyecto-2-DA/blob/main/images/diagrama_calle.png)
+
+
+**Análisis de la distribución de víctimas por tipo de calle**
+
+- Distribución por tipo de calle
+
+El DataFrame presenta cuatro categorías principales de tipo de calle: autopista, avenida, calle y General Paz. La categoría de avenida tiene la mayor cantidad de víctimas por siniestros viales, con 442. Le sigue la categoría de calle con 138, la categoría de General Paz con 69 y la categoría de autopista con 68.
+
+- Diferencias en el número de víctimas por tipo de calle
+
+Se observan diferencias significativas en el número de víctimas por siniestros viales entre los tipos de calle. La categoría de avenida tiene el mayor número de víctimas, seguida por la categoría de autopista. La categoría de calle tiene un número significativamente menor de víctimas, y la categoría de General Paz tiene el menor número de víctimas.
+
+- Proporciones de víctimas por tipo de calle
+
+Calcular la proporción de víctimas en cada tipo de calle puede ayudar a comprender mejor la relación entre ellos. Por ejemplo, la proporción de víctimas en avenidas es de 68.3%, mientras que la proporción de víctimas en autopistas es de 6.9%. Esto sugiere que las avenidas tienen un mayor riesgo de siniestros viales que las autopistas.
+
+- Interpretación de los resultados
+
+Estas diferencias en el número de víctimas por tipo de calle podrían estar relacionadas con una serie de factores, como la velocidad máxima permitida en cada tipo de carretera, el volumen de tráfico, la presencia de semáforos y señalización, y otros factores de seguridad vial.
+
+- Medidas de seguridad vial
+
+Los datos pueden ser útiles para evaluar la efectividad de las medidas de seguridad vial en diferentes tipos de carreteras. Por ejemplo, si las avenidas tienen una alta cantidad de víctimas, podría ser necesario revisar las medidas de seguridad y la infraestructura en ese tipo de carretera.
