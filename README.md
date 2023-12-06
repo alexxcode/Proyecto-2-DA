@@ -12,7 +12,7 @@ Nos hemos propuesto la tarea de analizar a fondo los incidentes de tráfico ocur
 
 Este proyecto no solo es una oportunidad para aplicar nuestras habilidades de análisis de datos, sino también un compromiso con la seguridad y el bienestar de la comunidad. A través de este informe, te invitamos a explorar nuestro enfoque y descubrir cómo los datos pueden desempeñar un papel fundamental en la construcción de una ciudad más segura en las carreteras de Buenos Aires.
 
-*NOTA: Es importante aclarar que los resultados y conclusiones aquí presentadas, deben usarse solo con fines académicos, y de ningún modo en la toma de decisiones finales. 
+*NOTA: Es importante aclarar que los resultados y conclusiones aquí presentadas deben usarse solo con fines académicos y orientativos, de ningún modo en la toma de decisiones finales. 
 ---
 
 ## Fases del Proyecto
@@ -30,13 +30,14 @@ El proyecto se desarrolló siguiendo estos aspectos clave:
 ## ETL
 
 Si bien el proyecto no requería un ETL o transformación de datos, fue necesario realzar algunas modificaciones con el fin de alcanzar el objetivo de forma mas eficiente, por tanto, previamente al análisis se realizaron las siguientes acciones para garantizar la calidad y coherencia de los datos:
-**1. Eliminación de Duplicados** 
-**2. Filtrado de Fechas Inválidas:** Se ha realizado un filtrado riguroso en la columna 'release_date' para identificar y cuantificar los valores atípicos que no cumplen con el formato aaaa-mm-dd. 
-**3. Unión de las tablas:** Como parte de la transformación se ha realizado la unión de las tablas por medio de un inner 
-**4. Gestión de Valores Nulos:** Dado que los valores nulos podrían afectar negativamente el funcionamiento de la API, se han eliminado de manera consciente. 
-**5. Identificación de Outliers** 
-**6. Eliminación de Registros Incoherentes** 
-**7. Creación de nuevas columnas:** se crearon dos columnas nuevas llamadas SEMESTRE y CATEGORIA_EDAD  para realizar los KPIs y el Deshboard sin modificación posterior. 
+
+- **1. Eliminación de Duplicados** 
+- **2. Filtrado de Fechas Inválidas:** Se ha realizado un filtrado riguroso en la columna 'release_date' para identificar y cuantificar los valores atípicos que no cumplen con el formato aaaa-mm-dd. 
+- **3. Unión de las tablas:** Como parte de la transformación se ha realizado la unión de las tablas por medio de un inner 
+- **4. Gestión de Valores Nulos:** Dado que los valores nulos podrían afectar negativamente el funcionamiento de la API, se han eliminado de manera consciente. 
+- **5. Identificación de Outliers** 
+- **6. Eliminación de Registros Incoherentes** 
+- **7. Creación de nuevas columnas:** se crearon dos columnas nuevas llamadas SEMESTRE y CATEGORIA_EDAD  para realizar los KPIs y el Deshboard sin modificación posterior. 
 
 </br>
 
