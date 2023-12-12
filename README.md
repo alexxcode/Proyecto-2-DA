@@ -12,8 +12,8 @@ Nos hemos propuesto la tarea de analizar a fondo los incidentes de tráfico ocur
 
 Este proyecto no solo es una oportunidad para aplicar nuestras habilidades de análisis de datos, sino también un compromiso con la seguridad y el bienestar de la comunidad. A través de este informe, te invitamos a explorar nuestro enfoque y descubrir cómo los datos pueden desempeñar un papel fundamental en la construcción de una ciudad más segura en las carreteras de Buenos Aires.
 
-*NOTA: Es importante aclarar que los resultados y conclusiones aquí presentadas deben usarse solo con fines académicos y orientativos, de ningún modo en la toma de decisiones finales. 
----
+> [!NOTE]
+>  Es importante aclarar que los resultados y conclusiones aquí presentadas deben usarse solo con fines académicos y orientativos, de ningún modo en la toma de decisiones finales.
 
 ## Fases del Proyecto
 
